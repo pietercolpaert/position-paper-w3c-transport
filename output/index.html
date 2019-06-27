@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Creating a level playing field for data access in the Mobility as a Service ecosystem</title>
+  <link rel="stylesheet" media="screen" href="styles/screen.css" />
+  <link rel="stylesheet" media="print"  href="styles/print.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+  <meta name="citation_title" content="Creating a level playing field for data access in the Mobility as a Service ecosystem">
+  <meta name="citation_author" content="Pieter Colpaert" />
+  <meta name="citation_author" content="Julián Andrés Rojas Meléndez" />
+  <meta name="citation_author" content="Paul Theyskens" />
+  <meta name="citation_author" content="Harm Delva" />
+  <meta name="citation_author" content="Brecht Van de Vyvere" />
+  <meta name="citation_author" content="Ruben Verborgh" />
+  
+  <meta name="citation_publication_date" content="2019/06/27" />
+</head>
+
+<body prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# rdfs: http://www.w3.org/2000/01/rdf-schema# owl: http://www.w3.org/2002/07/owl# xsd: http://www.w3.org/2001/XMLSchema# dcterms: http://purl.org/dc/terms/ dctypes: http://purl.org/dc/dcmitype/ foaf: http://xmlns.com/foaf/0.1/ v: http://www.w3.org/2006/vcard/ns# pimspace: http://www.w3.org/ns/pim/space# cc: https://creativecommons.org/ns# skos: http://www.w3.org/2004/02/skos/core# prov: http://www.w3.org/ns/prov# qb: http://purl.org/linked-data/cube# schema: http://schema.org/ void: http://rdfs.org/ns/void# rsa: http://www.w3.org/ns/auth/rsa# cert: http://www.w3.org/ns/auth/cert# cal: http://www.w3.org/2002/12/cal/ical# wgs: http://www.w3.org/2003/01/geo/wgs84_pos# org: http://www.w3.org/ns/org# biblio: http://purl.org/net/biblio# bibo: http://purl.org/ontology/bibo/ book: http://purl.org/NET/book/vocab# ov: http://open.vocab.org/terms/ sioc: http://rdfs.org/sioc/ns# doap: http://usefulinc.com/ns/doap# dbr: http://dbpedia.org/resource/ dbp: http://dbpedia.org/property/ sio: http://semanticscience.org/resource/ opmw: http://www.opmw.org/ontology/ deo: http://purl.org/spar/deo/ doco: http://purl.org/spar/doco/ cito: http://purl.org/spar/cito/ fabio: http://purl.org/spar/fabio/ oa: http://www.w3.org/ns/oa# as: https://www.w3.org/ns/activitystreams# ldp: http://www.w3.org/ns/ldp# solid: http://www.w3.org/ns/solid/terms# acl: http://www.w3.org/ns/auth/acl# dio: https://w3id.org/dio# as: https://www.w3.org/ns/activitystreams# oa: http://www.w3.org/ns/oa# ldp: http://www.w3.org/ns/ldp#" typeof="schema:CreativeWork sioc:Post prov:Entity">
+  <header>
+  <h1 id="creating-a-level-playing-field-for-data-access-in-the-mobility-as-a-service-ecosystem">Creating a level playing field for data access in the Mobility as a Service ecosystem</h1>
+
+  <ul id="authors">
+    <li><a href="https://pietercolpaert.be/" typeof="http://xmlns.com/foaf/0.1/Person" resource="https://pietercolpaert.be/#me">Pieter Colpaert</a></li>
+    <li><a href="https://telefoonboek.ugent.be/en/people/802002620753" typeof="http://xmlns.com/foaf/0.1/Person" resource="https://orcid.org/0000-0002-6645-1264">Julián Andrés Rojas Meléndez</a></li>
+    <li><a href="https://www.linkedin.com/in/paultheyskens/" typeof="http://xmlns.com/foaf/0.1/Person" resource="#paul">Paul Theyskens</a></li>
+    <li><a href="https://telefoonboek.ugent.be/en/people/802002413821" typeof="http://xmlns.com/foaf/0.1/Person" resource="https://orcid.org/0000-0001-8272-0754">Harm Delva</a></li>
+    <li><a href="https://brechtvdv.github.io/" typeof="http://xmlns.com/foaf/0.1/Person" resource="https://w3id.org/people/brechtvdv/#me">Brecht Van de Vyvere</a></li>
+    <li><a href="https://ruben.verborgh.org/" typeof="http://xmlns.com/foaf/0.1/Person" resource="https://ruben.verborgh.org/profile/#me">Ruben Verborgh</a></li>
+  </ul>
+
+  <ul id="affiliations">
+    <li id="idlab">IDLab,
+          Department of Electronics and Information Systems,
+          Ghent University – imec</li>
+  </ul>
+
+  <section id="abstract">
+    <h2>Abstract</h2>
+
+    <p>Offering route planning advice to travelers is not a goal in itself.
+For example, a foldable bike manufacturer wants to sell bikes, a taxi-service wants to drive cars, and a public transit agency wants to sell more tickets; yet all of these players may want to offer a route planner to their customers that take into account all options.
+It is not a thriving competitive ecosystem when the different stakeholders need to compete for the best access to data for their route planners instead of competing on the quality of their core business.
+As a solution we propose to build a <strong>level playing field</strong> where everyone has an equal access to both open transport data, as well as the mobility profile of a user.
+If we want to achieve that goal, <strong>we need to collaborate cross organizations on three different aspects</strong>: i) standardized Linked Data ontologies for the transport domain, ii) Cost-efficient Web APIs for Open Transport Data that allow for client to automate data adoption over multiple servers, and iii) privacy aware protocols for decentral data pods.
+Together with the Flemish mobility company De Lijn, we are working on a serverless JavaScript library that downloads data from the Web while routing called Planner.js.</p>
+
+  </section>
+
+</header>
+<section class="context">
+  <h2 id="this-is-a-position-paper-in-reply-to">This is a position paper in reply to</h2>
+  <ul>
+    <li><a href="https://www.w3.org/auto/events/data-ws-2019/cfp" rel="as:inReplyTo">W3C Workshop on Data Models for Transportation</a></li>
+  </ul>
+</section>
+
+<main>
+  <!-- Add sections by specifying their file name, excluding the '.md' suffix. -->
+  <section id="ld-ontologies">
+    <h2>Linked Data Ontologies</h2>
+
+    <p>Mobility as a Service means ecosystem building: every organization fulfills a small piece of the mobility puzzle. Standards are useful, but not one standard is going to be able to describe the entire world. Moreover, even for describing similar things, multiple standards exist. MaaS crosses the borders of organizations, but also crosses the borders of domains standards are built for.</p>
+
+    <p>Linked Data proposes a framework to help raise the interoperability of different standards and datasets. It advocates two things: 1) supporting multiple serializations through the Resource Description Framwork, and 2) using HTTP URIs for identifiers.</p>
+
+    <p>The <a href="https://www.w3.org/TR/rdf11-primer/">Resource Description Framework</a> specifies a triple structure for statements in datasets. A subject has a relation (a predicate) to something else (the object). A dataset is then a list of statements or triples. Such triples can be extracted from any kind of serialization such as CSV, JSON or XML, however, we need a standard to know how these triples are encoded in the file. This is the small layer that RDF1.1 adds to e.g., JSON (with <a href="https://www.w3.org/2018/jsonld-cg-reports/json-ld/">JSON-LD</a>), XML (with <a href="https://www.w3.org/TR/rdf-syntax-grammar/">RDF/XML</a>) or CSV (with <a href="https://www.w3.org/TR/tabular-data-primer/">CSV on the Web</a>).</p>
+
+    <p>For each part of such a triple, an identifier should be used. E.g., 1 has a first name “Pieter”. However, 1 can mean a lot of things in a decentralized context. Thus, Linked Data advocates for a web address to be used. My personal identifier is <a href="https://pietercolpaert.be/#me">https:/​/​pietercolpaert.be/#me</a>, yet others have also given me the URIs <a href="https://orcid.org/0000-0001-6917-2167">https:/​/​orcid.org/0000-0001-6917-2167</a> and <a href="https://dblp.org/pers/c/Colpaert:Pieter">https:/​/​dblp.org/pers/c/Colpaert:Pieter</a>. It is up to me to decide what I want to use in my own context, but can easily make my data interoperable with other contexts by declaring these links.</p>
+
+    <p>Linked Data does not solve semantic interoperability for these standards and datasets. However, it does create a machine interpretable framework to discuss the semantics. In this way, when using a term, you can be certain that it is the intended term from within a specific standard. It also opens the door towards automated alignments between standards, although it is still early days. Existing domain models and standards can be used within Linked Data with a relatively small effort. All terms defined in the domain model need an HTTP URI that when resolved, will return a definition of that term. Our pitch for creating a Linked Data specification of the CEN Transmodel standard can be found at https://speakerdeck.com/pietercolpaert/transmodel-as-linked-data-the-first-step</p>
+
+    <h2 id="web-apis">Cost-efficient Web APIs for serverless clients</h2>
+
+    <p>A false dichotomy when publishing transport data must be when people choose between downloading the data dump or using an existing route planning API. 
+A data dump gives all flexibility to calculate any kind of specific route useful for the modes you want to support.
+However, it requires you yourself to do heavy data lifting on your own servers: you will need a road network, integrate public transport datasets worldwide, add specific weight to the routing graph, set up route planning software and so forth.
+Using an existing route planner however makes you dependent on the use cases and datasets the route planner supports.
+If it does not support taking your foldable bike on public transport, you are not in luck and your only options remains doing the heavy data lifting yourself.</p>
+
+    <p>In-between solutions taking the best from both worlds (serverless route planners while keeping any kind of flexibility to the client) exist.
+When the dataset is <a href="http://linkeddatafragments.org">fragmented</a> in well-chosen documents, a route planner can download only the parts of the dataset it needs just in time.
+We have already developed two hypermedia APIs: one for <a href="http://linkedconnections.org">public transport services using Linked Connections</a>, and another for republishing the <a href="http://pieter.pm/demo-paper-routable-tiles/">road network of OpenStreetMap</a>. Using this idea of fragmenting datasets in the right parts, developers can code their applications entirely serverless if they want to, and data owners still have a cheap web interface to host that will not overload their servers on increasing demand thanks to the high cacheability and ease to host.
+Having started our own route planner implementation in JavaScript at https://planner.js.org, we are now looking at others to create other hypermedia interfaces we could start reusing for our serverless route planning library.</p>
+
+    <h2 id="my-data">Protocols for decentralized mobility profiles</h2>
+
+    <p>The <a href="https://www.w3.org/community/solid/">W3C SOLID community group</a> proposes W3C standards for the read-write Web to decentralize personal information for Web applications.
+In essence, everyone should be able to decide where their data is stored, and which services get access to the data.
+Also for Mobility as a Service, the Flemish mobility company De Lijn and our team at Ghent University started to collaborate on mobility profiles.
+These profiles are owned by the end-user, but the Flemish mobility company can write interesting data to it.
+For example: which subscription they own, their preferred routes, whether or not they own a car-sharing subscription, a foldable bike, etc.
+When using a different route planner, this end-user should be able to decide to give the route planner access to this mobility profile to calculate individual route planning advice.</p>
+
+    <p>We are only at the advent of the idea of decentralized mobility profiles, yet everyone can play a role by putting the data itself where it belongs: in the control of the end-user.
+We will create a better and stronger Mobility as a Service ecosystem when all route planners have equal access to both open transport data and the individual mobility profiles of users (if they give their consent).</p>
+
+  </section>
+
+</main>
+
+<footer></footer>
+
+</body>
+</html>
